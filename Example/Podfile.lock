@@ -1,0 +1,16 @@
+PODS:
+  - StarFlight (0.1.0)
+
+DEPENDENCIES:
+  - StarFlight (from `../`)
+
+EXTERNAL SOURCES:
+  StarFlight:
+    :path: ../
+
+SPEC CHECKSUMS:
+  StarFlight: 28ea26f7c2c35d66177034660ba1c4df0a08b41e
+
+PODFILE CHECKSUM: 3bcba5f488ff6c09df0c32a1a024fc29bcd34fae
+
+COCOAPODS: 1.1.1

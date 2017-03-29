@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2492980BB88A8481655BEC2850A607DC /* StarFlight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FB08365A1F3CE2B90F429DF44D1631 /* StarFlight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B0A42DA9A4A70BC18F3C794B2A49CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		495EA060BD7A6F926322EA59CB1C547E /* Pods-StarFlight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB22445AD9762C663D86E6BD13FC456 /* Pods-StarFlight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66833057E84C3C767F1777BC3BFC334C /* Pods-StarFlight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F86A109EADBD47F324C0011122D7331 /* Pods-StarFlight_Tests-dummy.m */; };
+		84B6467398DEE7B4ACFFDFCF999D775F /* StarFlight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1205461D325D7C3BF9D8528BC355A2 /* StarFlight-dummy.m */; };
+		8CE8C730E1760259A10642F1EF699690 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F3319858280914AE7427D07154756909 /* ReplaceMe.m */; };
+		A6336C5D604F572134BD471D106797DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39F77FF41123EC084C9358B8216C981E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7DECFD97C8C0CFC8942CF973E329D7;
+			remoteInfo = StarFlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C70422B318425C6233E5C999F56BF00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F86A109EADBD47F324C0011122D7331 /* Pods-StarFlight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarFlight_Tests-dummy.m"; sourceTree = "<group>"; };
+		4D4C1FD19894C4AE7BE4068A1ADA6D75 /* StarFlight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarFlight-prefix.pch"; sourceTree = "<group>"; };
+		61DF0A458B4297F831E5222DA96BB0CC /* StarFlight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = StarFlight.modulemap; sourceTree = "<group>"; };
+		641BE0490999948765C2125F0DBEFBDA /* Pods-StarFlight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarFlight_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67A7DFA63182FD4B3E61F703208F5ACD /* Pods-StarFlight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StarFlight_Tests.modulemap"; sourceTree = "<group>"; };
+		6ED9C91D06BE2FA849238115F6239B01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CD61CA69CB339FB58FA9310A8E465C /* Pods-StarFlight_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarFlight_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D41560772084302AE8427A390AEF82F /* StarFlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StarFlight.framework; path = StarFlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803979AA3C42A9E5C3CA04A966628398 /* Pods-StarFlight_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarFlight_Tests-resources.sh"; sourceTree = "<group>"; };
+		83FB08365A1F3CE2B90F429DF44D1631 /* StarFlight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarFlight-umbrella.h"; sourceTree = "<group>"; };
+		870B55C4373049170874CD6CE7C13C99 /* Pods-StarFlight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarFlight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6DABDCA8363C4D920534E1B1BFB453A /* StarFlight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarFlight.xcconfig; sourceTree = "<group>"; };
+		BC107A9492A4D940EBE28219998B2ABF /* Pods-StarFlight_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarFlight_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BD1205461D325D7C3BF9D8528BC355A2 /* StarFlight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarFlight-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D93B0774B6A0B4E66BFFCF54B7B8EB8C /* Pods-StarFlight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarFlight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E736B7E11326816811EFC74F6A69F7A1 /* Pods_StarFlight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarFlight_Tests.framework; path = "Pods-StarFlight_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3319858280914AE7427D07154756909 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		FBB22445AD9762C663D86E6BD13FC456 /* Pods-StarFlight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarFlight_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D56BB5BFAEEB1BA3A64CFB3789106DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6336C5D604F572134BD471D106797DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7D3F1188343DEA101AF50923D9A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0A42DA9A4A70BC18F3C794B2A49CD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C12220DBE0347D5394E0AC9B372FB81 /* StarFlight */ = {
+			isa = PBXGroup;
+			children = (
+				A6957E2B903BF998448CA7453C1245F2 /* StarFlight */,
+				A8F1267B0DEA80BD331A767C5C5E53B2 /* Support Files */,
+			);
+			name = StarFlight;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3BAA713A69C48EED02CE33A62ADAD4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E736B7E11326816811EFC74F6A69F7A1 /* Pods_StarFlight_Tests.framework */,
+				7D41560772084302AE8427A390AEF82F /* StarFlight.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7486715DDB1E560AA90680C0F6052256 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5323673C95A862106F5C1D70E44BD /* Pods-StarFlight_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B9977AA32B94D37EFAE5716D3EBE8F28 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3BAA713A69C48EED02CE33A62ADAD4BA /* Products */,
+				7486715DDB1E560AA90680C0F6052256 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6957E2B903BF998448CA7453C1245F2 /* StarFlight */ = {
+			isa = PBXGroup;
+			children = (
+				D71D93A849A66C54ED4F5569FA3585EC /* Classes */,
+			);
+			name = StarFlight;
+			path = StarFlight;
+			sourceTree = "<group>";
+		};
+		A8F1267B0DEA80BD331A767C5C5E53B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C70422B318425C6233E5C999F56BF00 /* Info.plist */,
+				61DF0A458B4297F831E5222DA96BB0CC /* StarFlight.modulemap */,
+				B6DABDCA8363C4D920534E1B1BFB453A /* StarFlight.xcconfig */,
+				BD1205461D325D7C3BF9D8528BC355A2 /* StarFlight-dummy.m */,
+				4D4C1FD19894C4AE7BE4068A1ADA6D75 /* StarFlight-prefix.pch */,
+				83FB08365A1F3CE2B90F429DF44D1631 /* StarFlight-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StarFlight";
+			sourceTree = "<group>";
+		};
+		B9977AA32B94D37EFAE5716D3EBE8F28 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C12220DBE0347D5394E0AC9B372FB81 /* StarFlight */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D71D93A849A66C54ED4F5569FA3585EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3319858280914AE7427D07154756909 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FAB5323673C95A862106F5C1D70E44BD /* Pods-StarFlight_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6ED9C91D06BE2FA849238115F6239B01 /* Info.plist */,
+				67A7DFA63182FD4B3E61F703208F5ACD /* Pods-StarFlight_Tests.modulemap */,
+				D93B0774B6A0B4E66BFFCF54B7B8EB8C /* Pods-StarFlight_Tests-acknowledgements.markdown */,
+				77CD61CA69CB339FB58FA9310A8E465C /* Pods-StarFlight_Tests-acknowledgements.plist */,
+				1F86A109EADBD47F324C0011122D7331 /* Pods-StarFlight_Tests-dummy.m */,
+				BC107A9492A4D940EBE28219998B2ABF /* Pods-StarFlight_Tests-frameworks.sh */,
+				803979AA3C42A9E5C3CA04A966628398 /* Pods-StarFlight_Tests-resources.sh */,
+				FBB22445AD9762C663D86E6BD13FC456 /* Pods-StarFlight_Tests-umbrella.h */,
+				870B55C4373049170874CD6CE7C13C99 /* Pods-StarFlight_Tests.debug.xcconfig */,
+				641BE0490999948765C2125F0DBEFBDA /* Pods-StarFlight_Tests.release.xcconfig */,
+			);
+			name = "Pods-StarFlight_Tests";
+			path = "Target Support Files/Pods-StarFlight_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A8D2798B8C6FCCD906FA954D01EE788B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2492980BB88A8481655BEC2850A607DC /* StarFlight-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05EE9B9D1E72429BB0904683093B7AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495EA060BD7A6F926322EA59CB1C547E /* Pods-StarFlight_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67637B0E82B4485C601AE81FE8B5D8F2 /* Pods-StarFlight_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284DC98038DE0D4DB52D01001EFFBFAC /* Build configuration list for PBXNativeTarget "Pods-StarFlight_Tests" */;
+			buildPhases = (
+				746323A23561DEF52380C3A49C39B600 /* Sources */,
+				FAF7D3F1188343DEA101AF50923D9A79 /* Frameworks */,
+				C05EE9B9D1E72429BB0904683093B7AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC1434CC6632412833F7DC5464EEF20 /* PBXTargetDependency */,
+			);
+			name = "Pods-StarFlight_Tests";
+			productName = "Pods-StarFlight_Tests";
+			productReference = E736B7E11326816811EFC74F6A69F7A1 /* Pods_StarFlight_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D7DECFD97C8C0CFC8942CF973E329D7 /* StarFlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA45D4AB2C5E0FD3DA1467651E189F53 /* Build configuration list for PBXNativeTarget "StarFlight" */;
+			buildPhases = (
+				98780DBBE6D5D8A411140A58A6777233 /* Sources */,
+				5D56BB5BFAEEB1BA3A64CFB3789106DD /* Frameworks */,
+				A8D2798B8C6FCCD906FA954D01EE788B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarFlight;
+			productName = StarFlight;
+			productReference = 7D41560772084302AE8427A390AEF82F /* StarFlight.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3BAA713A69C48EED02CE33A62ADAD4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67637B0E82B4485C601AE81FE8B5D8F2 /* Pods-StarFlight_Tests */,
+				6D7DECFD97C8C0CFC8942CF973E329D7 /* StarFlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746323A23561DEF52380C3A49C39B600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66833057E84C3C767F1777BC3BFC334C /* Pods-StarFlight_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98780DBBE6D5D8A411140A58A6777233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE8C730E1760259A10642F1EF699690 /* ReplaceMe.m in Sources */,
+				84B6467398DEE7B4ACFFDFCF999D775F /* StarFlight-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC1434CC6632412833F7DC5464EEF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarFlight;
+			target = 6D7DECFD97C8C0CFC8942CF973E329D7 /* StarFlight */;
+			targetProxy = 39F77FF41123EC084C9358B8216C981E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		429775B45E32CD2E2BD4869CE5566D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641BE0490999948765C2125F0DBEFBDA /* Pods-StarFlight_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StarFlight_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarFlight_Tests/Pods-StarFlight_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StarFlight_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43132E8A387BC0404B8050E791FF6FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DABDCA8363C4D920534E1B1BFB453A /* StarFlight.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StarFlight/StarFlight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarFlight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StarFlight/StarFlight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = StarFlight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58A35C62A28D57166E480A7FE43CFA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DABDCA8363C4D920534E1B1BFB453A /* StarFlight.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StarFlight/StarFlight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarFlight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StarFlight/StarFlight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = StarFlight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B2D2D42E6534EA0F0A2995DF4412EF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870B55C4373049170874CD6CE7C13C99 /* Pods-StarFlight_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StarFlight_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarFlight_Tests/Pods-StarFlight_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StarFlight_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284DC98038DE0D4DB52D01001EFFBFAC /* Build configuration list for PBXNativeTarget "Pods-StarFlight_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D2D42E6534EA0F0A2995DF4412EF88 /* Debug */,
+				429775B45E32CD2E2BD4869CE5566D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA45D4AB2C5E0FD3DA1467651E189F53 /* Build configuration list for PBXNativeTarget "StarFlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A35C62A28D57166E480A7FE43CFA14 /* Debug */,
+				43132E8A387BC0404B8050E791FF6FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

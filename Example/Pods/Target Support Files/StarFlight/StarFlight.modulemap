@@ -1,0 +1,6 @@
+framework module StarFlight {
+  umbrella header "StarFlight-umbrella.h"
+
+  export *
+  module * { export * }
+}
