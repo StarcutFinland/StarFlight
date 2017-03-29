@@ -21,7 +21,7 @@ pod "StarFlight"
 
 ## Author
 
-Dima Osadchy, dima.osadchy@starcut.com
+Starcut Developers, starcutdev@gmail.com
 
 ## License
 
