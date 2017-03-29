@@ -1,6 +1,5 @@
 # StarFlight
 
-[![CI Status](http://img.shields.io/travis/Dima Osadchy/StarFlight.svg?style=flat)](https://travis-ci.org/Dima Osadchy/StarFlight)
 [![Version](https://img.shields.io/cocoapods/v/StarFlight.svg?style=flat)](http://cocoapods.org/pods/StarFlight)
 [![License](https://img.shields.io/cocoapods/l/StarFlight.svg?style=flat)](http://cocoapods.org/pods/StarFlight)
 [![Platform](https://img.shields.io/cocoapods/p/StarFlight.svg?style=flat)](http://cocoapods.org/pods/StarFlight)
