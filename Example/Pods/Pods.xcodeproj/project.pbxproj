@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08E356931E8B97E800D0B2DA /* NSData+Conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E356911E8B97E800D0B2DA /* NSData+Conversion.h */; };
+		08E356941E8B97E800D0B2DA /* NSData+Conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E356911E8B97E800D0B2DA /* NSData+Conversion.h */; };
+		08E356951E8B97E800D0B2DA /* NSData+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356921E8B97E800D0B2DA /* NSData+Conversion.m */; };
+		08E356961E8B97E800D0B2DA /* NSData+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356921E8B97E800D0B2DA /* NSData+Conversion.m */; };
+		08E356991E8B97F100D0B2DA /* SCStarFlightPushClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E356971E8B97F100D0B2DA /* SCStarFlightPushClient.h */; };
+		08E3569A1E8B97F100D0B2DA /* SCStarFlightPushClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E356971E8B97F100D0B2DA /* SCStarFlightPushClient.h */; };
+		08E3569B1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356981E8B97F100D0B2DA /* SCStarFlightPushClient.m */; };
+		08E3569C1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356981E8B97F100D0B2DA /* SCStarFlightPushClient.m */; };
 		2492980BB88A8481655BEC2850A607DC /* StarFlight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FB08365A1F3CE2B90F429DF44D1631 /* StarFlight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B0A42DA9A4A70BC18F3C794B2A49CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		495EA060BD7A6F926322EA59CB1C547E /* Pods-StarFlight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB22445AD9762C663D86E6BD13FC456 /* Pods-StarFlight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66833057E84C3C767F1777BC3BFC334C /* Pods-StarFlight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F86A109EADBD47F324C0011122D7331 /* Pods-StarFlight_Tests-dummy.m */; };
 		84B6467398DEE7B4ACFFDFCF999D775F /* StarFlight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1205461D325D7C3BF9D8528BC355A2 /* StarFlight-dummy.m */; };
-		8CE8C730E1760259A10642F1EF699690 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F3319858280914AE7427D07154756909 /* ReplaceMe.m */; };
 		A6336C5D604F572134BD471D106797DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,26 +34,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08E356911E8B97E800D0B2DA /* NSData+Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Conversion.h"; sourceTree = "<group>"; };
+		08E356921E8B97E800D0B2DA /* NSData+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Conversion.m"; sourceTree = "<group>"; };
+		08E356971E8B97F100D0B2DA /* SCStarFlightPushClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCStarFlightPushClient.h; sourceTree = "<group>"; };
+		08E356981E8B97F100D0B2DA /* SCStarFlightPushClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCStarFlightPushClient.m; sourceTree = "<group>"; };
 		1C70422B318425C6233E5C999F56BF00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F86A109EADBD47F324C0011122D7331 /* Pods-StarFlight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarFlight_Tests-dummy.m"; sourceTree = "<group>"; };
 		4D4C1FD19894C4AE7BE4068A1ADA6D75 /* StarFlight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarFlight-prefix.pch"; sourceTree = "<group>"; };
-		61DF0A458B4297F831E5222DA96BB0CC /* StarFlight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = StarFlight.modulemap; sourceTree = "<group>"; };
+		61DF0A458B4297F831E5222DA96BB0CC /* StarFlight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StarFlight.modulemap; sourceTree = "<group>"; };
 		641BE0490999948765C2125F0DBEFBDA /* Pods-StarFlight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarFlight_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		67A7DFA63182FD4B3E61F703208F5ACD /* Pods-StarFlight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StarFlight_Tests.modulemap"; sourceTree = "<group>"; };
+		67A7DFA63182FD4B3E61F703208F5ACD /* Pods-StarFlight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StarFlight_Tests.modulemap"; sourceTree = "<group>"; };
 		6ED9C91D06BE2FA849238115F6239B01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77CD61CA69CB339FB58FA9310A8E465C /* Pods-StarFlight_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarFlight_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D41560772084302AE8427A390AEF82F /* StarFlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StarFlight.framework; path = StarFlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D41560772084302AE8427A390AEF82F /* StarFlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarFlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		803979AA3C42A9E5C3CA04A966628398 /* Pods-StarFlight_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarFlight_Tests-resources.sh"; sourceTree = "<group>"; };
 		83FB08365A1F3CE2B90F429DF44D1631 /* StarFlight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarFlight-umbrella.h"; sourceTree = "<group>"; };
 		870B55C4373049170874CD6CE7C13C99 /* Pods-StarFlight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarFlight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6DABDCA8363C4D920534E1B1BFB453A /* StarFlight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarFlight.xcconfig; sourceTree = "<group>"; };
 		BC107A9492A4D940EBE28219998B2ABF /* Pods-StarFlight_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarFlight_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BD1205461D325D7C3BF9D8528BC355A2 /* StarFlight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarFlight-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D93B0774B6A0B4E66BFFCF54B7B8EB8C /* Pods-StarFlight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarFlight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E736B7E11326816811EFC74F6A69F7A1 /* Pods_StarFlight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarFlight_Tests.framework; path = "Pods-StarFlight_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3319858280914AE7427D07154756909 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		E736B7E11326816811EFC74F6A69F7A1 /* Pods_StarFlight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarFlight_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB22445AD9762C663D86E6BD13FC456 /* Pods-StarFlight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarFlight_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +131,6 @@
 			children = (
 				D71D93A849A66C54ED4F5569FA3585EC /* Classes */,
 			);
-			name = StarFlight;
 			path = StarFlight;
 			sourceTree = "<group>";
 		};
@@ -158,9 +167,11 @@
 		D71D93A849A66C54ED4F5569FA3585EC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F3319858280914AE7427D07154756909 /* ReplaceMe.m */,
+				08E356911E8B97E800D0B2DA /* NSData+Conversion.h */,
+				08E356921E8B97E800D0B2DA /* NSData+Conversion.m */,
+				08E356971E8B97F100D0B2DA /* SCStarFlightPushClient.h */,
+				08E356981E8B97F100D0B2DA /* SCStarFlightPushClient.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -189,7 +200,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E3569A1E8B97F100D0B2DA /* SCStarFlightPushClient.h in Headers */,
 				2492980BB88A8481655BEC2850A607DC /* StarFlight-umbrella.h in Headers */,
+				08E356941E8B97E800D0B2DA /* NSData+Conversion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +210,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E356991E8B97F100D0B2DA /* SCStarFlightPushClient.h in Headers */,
 				495EA060BD7A6F926322EA59CB1C547E /* Pods-StarFlight_Tests-umbrella.h in Headers */,
+				08E356931E8B97E800D0B2DA /* NSData+Conversion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E356951E8B97E800D0B2DA /* NSData+Conversion.m in Sources */,
+				08E3569B1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */,
 				66833057E84C3C767F1777BC3BFC334C /* Pods-StarFlight_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE8C730E1760259A10642F1EF699690 /* ReplaceMe.m in Sources */,
+				08E356961E8B97E800D0B2DA /* NSData+Conversion.m in Sources */,
+				08E3569C1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */,
 				84B6467398DEE7B4ACFFDFCF999D775F /* StarFlight-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -27,3 +27,40 @@ Dima Osadchy, dima.osadchy@starcut.com
 ## License
 
 StarFlight is available under the MIT license. See the LICENSE file for more info.
+
+## Usage
+
+```Objective-C
+
+in AppDelegate.m
+
+#import "SCStarFlightPushClient.h"
+#import "NSData+Conversion.h"
+
+static NSString *const StarFlightClientID = @"<Client ID here>";
+static NSString *const StarFlightClientSecret = @"<Client Secret here>";
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+//...    
+// Let the device know we want to receive push notifications
+[[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
+
+//...
+return YES;
+}
+
+- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+{
+NSLog(@"My token is: %@", [deviceToken hexadecimalString]);
+
+StarFlightPushClient *pushClient = [[StarFlightPushClient alloc] init];
+[pushClient register:[deviceToken hexadecimalString]];
+}
+
+- (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
+{
+NSLog(@"Failed to get token, error: %@", error);
+}
+
+```
