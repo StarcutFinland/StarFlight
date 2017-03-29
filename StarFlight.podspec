@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StarFlight'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'StarFlight is a library that gives you the integration with StarFlight Push Notification service.'
 
 # This description is used to generate tags and improve search results.
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'This CocoaPod provides the ability to integrate StarFlight Push Notification API to your application and to use StarFlight services developed by Starcut Finland Oy'
-  s.homepage         = 'https://github.com/dimaosa/StarFlight'
+  s.homepage         = 'https://github.com/StarcutFinland/StarFlight'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Dima Osadchy' => 'Starcut Finland' }
-  s.source           = { :git => 'https://github.com/dimaosa/StarFlight.git', :tag => s.version.to_s }
+  s.author           = { 'Starcut' => 'Starcut Finland Oy' }
+  s.source           = { :git => 'https://github.com/StarcutFinland/StarFlight.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
