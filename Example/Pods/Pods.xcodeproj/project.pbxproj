@@ -15,6 +15,10 @@
 		08E3569A1E8B97F100D0B2DA /* SCStarFlightPushClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E356971E8B97F100D0B2DA /* SCStarFlightPushClient.h */; };
 		08E3569B1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356981E8B97F100D0B2DA /* SCStarFlightPushClient.m */; };
 		08E3569C1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356981E8B97F100D0B2DA /* SCStarFlightPushClient.m */; };
+		08E356BD1E8BA4EB00D0B2DA /* SCHTTPNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E356BB1E8BA4EB00D0B2DA /* SCHTTPNetwork.h */; };
+		08E356BE1E8BA4EB00D0B2DA /* SCHTTPNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E356BB1E8BA4EB00D0B2DA /* SCHTTPNetwork.h */; };
+		08E356BF1E8BA4EB00D0B2DA /* SCHTTPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356BC1E8BA4EB00D0B2DA /* SCHTTPNetwork.m */; };
+		08E356C01E8BA4EB00D0B2DA /* SCHTTPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E356BC1E8BA4EB00D0B2DA /* SCHTTPNetwork.m */; };
 		2492980BB88A8481655BEC2850A607DC /* StarFlight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FB08365A1F3CE2B90F429DF44D1631 /* StarFlight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B0A42DA9A4A70BC18F3C794B2A49CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		495EA060BD7A6F926322EA59CB1C547E /* Pods-StarFlight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB22445AD9762C663D86E6BD13FC456 /* Pods-StarFlight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +42,8 @@
 		08E356921E8B97E800D0B2DA /* NSData+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Conversion.m"; sourceTree = "<group>"; };
 		08E356971E8B97F100D0B2DA /* SCStarFlightPushClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCStarFlightPushClient.h; sourceTree = "<group>"; };
 		08E356981E8B97F100D0B2DA /* SCStarFlightPushClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCStarFlightPushClient.m; sourceTree = "<group>"; };
+		08E356BB1E8BA4EB00D0B2DA /* SCHTTPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHTTPNetwork.h; sourceTree = "<group>"; };
+		08E356BC1E8BA4EB00D0B2DA /* SCHTTPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHTTPNetwork.m; sourceTree = "<group>"; };
 		1C70422B318425C6233E5C999F56BF00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F86A109EADBD47F324C0011122D7331 /* Pods-StarFlight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarFlight_Tests-dummy.m"; sourceTree = "<group>"; };
 		4D4C1FD19894C4AE7BE4068A1ADA6D75 /* StarFlight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarFlight-prefix.pch"; sourceTree = "<group>"; };
@@ -167,6 +173,8 @@
 		D71D93A849A66C54ED4F5569FA3585EC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				08E356BB1E8BA4EB00D0B2DA /* SCHTTPNetwork.h */,
+				08E356BC1E8BA4EB00D0B2DA /* SCHTTPNetwork.m */,
 				08E356911E8B97E800D0B2DA /* NSData+Conversion.h */,
 				08E356921E8B97E800D0B2DA /* NSData+Conversion.m */,
 				08E356971E8B97F100D0B2DA /* SCStarFlightPushClient.h */,
@@ -201,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E3569A1E8B97F100D0B2DA /* SCStarFlightPushClient.h in Headers */,
+				08E356BE1E8BA4EB00D0B2DA /* SCHTTPNetwork.h in Headers */,
 				2492980BB88A8481655BEC2850A607DC /* StarFlight-umbrella.h in Headers */,
 				08E356941E8B97E800D0B2DA /* NSData+Conversion.h in Headers */,
 			);
@@ -211,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E356991E8B97F100D0B2DA /* SCStarFlightPushClient.h in Headers */,
+				08E356BD1E8BA4EB00D0B2DA /* SCHTTPNetwork.h in Headers */,
 				495EA060BD7A6F926322EA59CB1C547E /* Pods-StarFlight_Tests-umbrella.h in Headers */,
 				08E356931E8B97E800D0B2DA /* NSData+Conversion.h in Headers */,
 			);
@@ -288,6 +298,7 @@
 			files = (
 				08E356951E8B97E800D0B2DA /* NSData+Conversion.m in Sources */,
 				08E3569B1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */,
+				08E356BF1E8BA4EB00D0B2DA /* SCHTTPNetwork.m in Sources */,
 				66833057E84C3C767F1777BC3BFC334C /* Pods-StarFlight_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +309,7 @@
 			files = (
 				08E356961E8B97E800D0B2DA /* NSData+Conversion.m in Sources */,
 				08E3569C1E8B97F100D0B2DA /* SCStarFlightPushClient.m in Sources */,
+				08E356C01E8BA4EB00D0B2DA /* SCHTTPNetwork.m in Sources */,
 				84B6467398DEE7B4ACFFDFCF999D775F /* StarFlight-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
