@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StarFlight'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'StarFlight is a library that gives you the integration with StarFlight Push Notification service.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'StarFlight/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'StarFlight' => ['StarFlight/Assets/*.png']
   # }
