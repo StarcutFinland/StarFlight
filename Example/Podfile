@@ -1,0 +1,6 @@
+use_frameworks!
+target 'StarFlight_Tests' do
+  pod 'StarFlight', :path => '../'
+  
+  
+end
