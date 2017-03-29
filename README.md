@@ -30,6 +30,7 @@ StarFlight is available under the MIT license. See the LICENSE file for more inf
 
 ## Usage
 
+Objective-C:
 ```Objective-C
 
 in AppDelegate.m
@@ -62,5 +63,16 @@ StarFlightPushClient *pushClient = [[StarFlightPushClient alloc] init];
 {
 NSLog(@"Failed to get token, error: %@", error);
 }
+
+```
+
+Swift:
+```Swift
+in AppDelegate.Swift
+
+import StarFlight
+
+let starFlightClientID = "<Client ID here>"
+let starFlightClientSecret = "<Client Secret here>"
 
 ```
