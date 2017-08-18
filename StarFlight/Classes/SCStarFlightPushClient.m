@@ -41,6 +41,11 @@ NSString *const SCStarFlightClientUUIDNotification = @"com.starcut.starflight.cl
     [self registerWithToken:token clientUUID:nil tags:nil];
 }
 
+- (void)registerWithToken:(NSString *)token tags:(NSArray<NSString *> *)tags
+{
+    [self registerWithToken:token clientUUID:nil tags:tags];
+}
+
 - (void)registerWithToken:(NSString *)token clientUUID:(NSString *)clientUUID tags:(NSArray<NSString *> *)tags
 {
     if (self.appID && self.clientSecret && token)
