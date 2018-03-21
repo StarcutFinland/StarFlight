@@ -38,57 +38,71 @@ NSString *const SCStarFlightClientUUIDNotification = @"com.starcut.starflight.cl
 
 - (void)registerWithToken:(NSString *)token
 {
-    [self registerWithToken:token clientUUID:nil tags:nil];
+    [self registerWithToken:token clientUUID:nil tags:nil timePreferences:nil];
 }
 
 - (void)registerWithToken:(NSString *)token tags:(NSArray<NSString *> *)tags
 {
-    [self registerWithToken:token clientUUID:nil tags:tags];
+    [self registerWithToken:token clientUUID:nil tags:tags timePreferences:nil];
 }
 
-- (void)registerWithToken:(NSString *)token clientUUID:(NSString *)clientUUID tags:(NSArray<NSString *> *)tags
+- (void)registerWithToken:(NSString *)token
+               clientUUID:(NSString *)clientUUID
+                     tags:(NSArray<NSString *> *)tags
+          timePreferences:(NSDictionary *)timePreferencesDict
 {
     if (self.appID && self.clientSecret && token)
     {
         NSString *post = [NSString stringWithFormat:@"action=register&appId=%@&clientSecret=%@&type=ios&token=%@", self.appID, self.clientSecret, token];
-
-        if (clientUUID)
+        
+        if (clientUUID && ![clientUUID  isEqualToString: @""])
         {
             post = [post stringByAppendingString:[NSString stringWithFormat:@"&clientUuid=%@", clientUUID]];
         }
-
+        
         NSString *tagsToRegister = @"";
         for (NSString *tag in tags)
         {
             tagsToRegister = [tagsToRegister stringByAppendingString:[NSString stringWithFormat:@",%@", tag]];
         }
-
+        
         tagsToRegister = [tagsToRegister stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@", "]];
-
+        
         if (tagsToRegister && ![tagsToRegister isEqualToString:@""])
         {
             post = [post stringByAppendingString:[NSString stringWithFormat:@"&tags=%@", tagsToRegister]];
         }
-
+        
+        if (timePreferencesDict) {
+            NSData *jsonData = [NSJSONSerialization dataWithJSONObject:timePreferencesDict options:NSJSONWritingPrettyPrinted error:nil];
+            
+            NSString *timePreferencesJsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+            
+            post = [post stringByAppendingString:[NSString stringWithFormat:@"&timePreferences=%@", timePreferencesJsonString]];
+            
+        }
+        
+        // time
         NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
         NSString *postLength = [NSString stringWithFormat:@"%lu", (unsigned long)[postData length]];
-
+        
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
         [request setURL:[self starFlightAPIURL]];
         [request setHTTPMethod:@"POST"];
+        [request setValue:[self userAgent]  forHTTPHeaderField:@"User-Agent"];
         [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
         [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Current-Type"];
         [request setHTTPBody:postData];
-
+        
         self.connection = [[SCHTTPNetwork alloc] init];
         [self.connection startResquest:request success:^(NSData *responseData) {
             NSDictionary *responseObject = [NSJSONSerialization JSONObjectWithData:responseData options: NSJSONReadingMutableContainers error:NULL];
-
+            
             if (responseObject)
             {
                 [[NSNotificationCenter defaultCenter] postNotificationName:SCStarFlightClientUUIDNotification object:self userInfo:responseObject];
             }
-
+            
         } failure:^(NSError *error, NSData *responseObject) {
             NSLog(@"%@", [error localizedDescription]);
         }];
@@ -175,4 +189,11 @@ NSString *const SCStarFlightClientUUIDNotification = @"com.starcut.starflight.cl
     return [NSURL URLWithString:@"https://starflight.starcloud.us/push"];
 }
 
+- (NSString *)userAgent
+{
+    UIDevice *systemInfo = [UIDevice currentDevice];
+    NSString *userAgent = [NSString stringWithFormat:@"%@/%@", [systemInfo systemName], [systemInfo systemVersion]];
+    
+    return userAgent;
+}
 @end
