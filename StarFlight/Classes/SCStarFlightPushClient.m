@@ -74,8 +74,11 @@ NSString *const SCStarFlightClientUUIDNotification = @"com.starcut.starflight.cl
             NSData *jsonData = [NSJSONSerialization dataWithJSONObject:timePreferencesDict options:NSJSONWritingPrettyPrinted error:nil];
             
             NSString *timePreferencesJsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-            
-            post = [post stringByAppendingString:[NSString stringWithFormat:@"&timePreferences=%@", timePreferencesJsonString]];
+
+            if (timePreferencesJsonString && ![timePreferencesJsonString  isEqualToString: @""]) {
+
+                post = [post stringByAppendingString:[NSString stringWithFormat:@"&timePreferences=%@", timePreferencesJsonString]];
+            }
             
         }
 
