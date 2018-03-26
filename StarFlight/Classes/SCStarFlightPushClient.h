@@ -16,7 +16,7 @@ extern NSString *const SCStarFlightClientUUIDNotification;
 - (instancetype)initWithAppID:(NSString *)appID clientSecret:(NSString *)clientSecret;
 
 - (void)registerWithToken:(NSString *)token;
-- (void)registerWithToken:(NSString *)token clientUUID:(NSString *)clientUUID tags:(NSArray<NSString *> *)tags timePreferences:(NSDictionary *)timePreferencesDict;
+- (void)registerWithToken:(NSString *)token clientUUID:(nullable NSString *)clientUUID tags:(nullable NSArray<NSString *> *)tags timePreferences:(nullable NSDictionary *)timePreferencesDict;
 - (void)registerWithToken:(NSString *)token tags:(NSArray<NSString *> *)tags;
 - (void)unregisterWithToken:(NSString *)token tags:(nullable NSArray<NSString *> *)tags;
 - (void)openedMessageWithUUID:(NSString *)messageUUID deviceToken:(NSString *)deviceToken;
