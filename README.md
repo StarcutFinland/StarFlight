@@ -83,7 +83,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let pushClient: SCStarFlightPushClient = SCStarFlightPushClient(appID: PushNotificationConstants.starFlightClientID, clientSecret: PushNotificationConstants.starFlightClientSecret)
         saveDeviceToken(deviceTokenString)
 
-        pushClient.register(withToken: self.deviceToken, clientUUID: (clientUUID != "" ? clientUUID : nil), tags: SettingsViewController.getAllActiveCategoris())
+                   pushClient.register(withToken: self.deviceToken,
+                                clientUUID: (clientUUID != "" ? clientUUID : nil),
+                                tags: [PDLocalization.currentLanguageCodeInSetting()],
+                                timePreferences: timePreferanceDict)
+
     }
 
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
