@@ -85,8 +85,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
                    pushClient.register(withToken: self.deviceToken,
                                 clientUUID: (clientUUID != "" ? clientUUID : nil),
-                                tags: [PDLocalization.currentLanguageCodeInSetting()],
-                                timePreferences: timePreferanceDict)
+                                tags: nil,
+                                timePreferences: nil)
 
     }
 
