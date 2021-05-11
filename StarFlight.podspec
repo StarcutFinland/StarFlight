@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StarFlight'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'StarFlight is a library that gives you the integration with StarFlight Push Notification service.'
 
 # This description is used to generate tags and improve search results.
