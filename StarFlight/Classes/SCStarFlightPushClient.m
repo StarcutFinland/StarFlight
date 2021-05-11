@@ -186,7 +186,7 @@ NSString *const SCStarFlightClientUUIDNotification = @"com.starcut.starflight.cl
 
 - (NSURL *)starFlightAPIURL
 {
-    return [NSURL URLWithString:@"https://starflight.starcloud.us/push"];
+    return [NSURL URLWithString:@"https://starflight.starcloudalias.link/push"];
 }
 
 - (NSString *)userAgent
